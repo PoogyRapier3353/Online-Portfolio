@@ -49,26 +49,20 @@ Navigation Bar*/
 
 .navbar {
 	opacity: 0.85;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+  	margin: 0;
 }
 .navbar img {
 	background: #FFFFFF;
 	width: 4.1vw;
 	height: 4.1vw;
-	padding: 0.2vw
+	padding: 0.2vw;
 }
 
 .navbar img:hover {
 	background-color: #909090;
-}
-
-.navbar ul{
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	list-style-type: none;
-	padding: 0;
-  	margin: 0;
-	width: 150%;
 }
 
 .nav_txt {
@@ -229,20 +223,15 @@ Footer */
 footer {
   width: 100%;
   height: 7vw;
-  display: flex;
   background: #353535;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 0;
 }
 
-footer ul{
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	list-style-type: none;
-	padding: 0;
-  	margin: 0;
+.footer-content-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .footer_text {
