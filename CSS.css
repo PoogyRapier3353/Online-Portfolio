@@ -32,13 +32,6 @@ body {
 }
 
 /*
-Header Image*/
-.header img{
-	height: 12vw;
-	width: 24vw;
-}
-
-/*
 Navigation Bar*/
 #sticky {
     position: -webkit-sticky;
@@ -56,9 +49,8 @@ Navigation Bar*/
 }
 .navbar img {
 	background: #FFFFFF;
-	width: 4.1vw;
-	height: 4.1vw;
 	padding: 0.2vw;
+	vertical-align: text-bottom;
 }
 
 .navbar img:hover {
@@ -70,7 +62,6 @@ Navigation Bar*/
 	color: rgba(35,35,35,1.00);
 	background-color: rgba(220, 220, 220,.70);
 	flex-grow: 1;
-	font-size: 2.5vw;
 	font-family: 'Ubuntu', sans-serif;
 	padding: 0.2vw;
 }
@@ -83,59 +74,17 @@ Navigation Bar*/
 
 /*
 Image Carousel*/
-.carousel img {
-	height: 35vw;
-}
-
 .carousel {
 	margin-top: -0.5vw;
 }
 
 
 
-@media (min-width: 1150px) {
-	.carousel-caption h5 {
-		font-size: 1.2vw;
-	}
-
-	.carousel-caption p {
-		font-size: 1vw;
-	}
-	.carousel-indicators {
-		width: 70vw;
-		visibility: visible;
-	}
-}
-
-@media (max-width: 1150px) {
-	.carousel-caption {
-		background: rgba(255,255,255,0.40);
-		height: 35vw;
-		width: 20%;
-	}
-	.carousel-caption h5 {
-		padding: 2vw;
-		font-size: 2.9vw;
-		margin-bottom: 0;
-		padding-bottom: 0.5vw;
-	}
-	.carousel-caption p {
-		margin-top: 0;
-		padding-top: 0;
-		font-size: 2.2vw;
-	}
-	.carousel-indicators {
-		visibility: hidden;
-	}
-	
-}
-
 /* 
 Socials Bar*/
 .socials {
   background-color: rgba(220, 220, 220,.50);
   width: 100%;
-  height: 5vw;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -145,7 +94,6 @@ Socials Bar*/
 }
 
 .socials img {
-  width: 5vw;
   transition: transform .5s;
   opacity: 0.9;
 }
@@ -157,7 +105,6 @@ Socials Bar*/
 #discord {
 	background: grey;
 	border-radius: 1vw;
-	width: 4vw;
 }
 
 /*
@@ -210,7 +157,6 @@ About Me*/
 
 .text p {
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 2vw;	
 }
 
 .side-by-side-container {
@@ -269,4 +215,100 @@ footer img {
 footer img:hover {
   transform: scale(1.2);
   opacity: 1;
+}
+@media (min-width: 1150px) {
+	.carousel-caption h5 {
+		font-size: 1.2vw;
+	}
+
+	.carousel-caption p {
+		font-size: 1vw;
+	}
+	.carousel-indicators {
+		width: 70vw;
+		visibility: visible;
+	}
+	.header img{
+		height: 12vw;
+		width: 24vw;
+	}
+	.nav_txt {
+		font-size: 2.5vw;
+	}
+	.navbar img {
+		width: 4.1vw;
+		height: 4.1vw;
+	}
+	.text p {
+		font-size: 2vw;	
+	}
+	.carousel img {
+		height: 35vw;
+	}
+.socials {
+  height: 5vw;
+  }
+
+.socials img {
+	height: 5vw;
+}
+#discord {
+	width: 4vw;
+	height: 4vw;
+}
+
+}
+
+@media (max-width: 1150px) {
+	.carousel-caption {
+		background: rgba(255,255,255,0.40);
+		height: 35vw;
+		width: 20%;
+		padding-top: 0;
+	}
+	.carousel-caption h5 {
+		padding: 2vw;
+		font-size: 3vw;
+		margin-bottom: 0;
+		padding-bottom: 0.5vw;
+		color: #1b1b1b;
+	}
+	.carousel-caption p {
+		margin-top: 0;
+		padding-top: 0;
+		font-size: 2.6vw;
+		color: #1b1b1b;
+	}
+	.carousel-indicators {
+		visibility: hidden;
+	}
+	.header img{
+	height: 18vw;
+	width: 36vw;
+	}
+	.nav_txt {
+		font-size: 3.8vw;
+	}
+	.navbar img {
+	width: 6vw;
+	height: 6vw;
+	}
+	.text p {
+	font-size: 3vw;	
+	}
+	.carousel img {
+		height: 63vw;
+	}
+	.socials {
+ 		 height: 12vw;
+  	}
+
+	.socials img {
+		height: 12vw;
+	}
+	#discord {
+		width: 10vw;
+		height: 10vw;
+		border-radius: 2.2vw;
+	}
 }
